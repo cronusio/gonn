@@ -3,7 +3,7 @@ package main
 import (
 	"errors"
 
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // Exit-code contract per l2-cli-client §5.3.

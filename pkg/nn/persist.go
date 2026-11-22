@@ -14,10 +14,10 @@ package nn
 import (
 	"fmt"
 
-	"github.com/teratron/gonn/pkg/activation"
-	"github.com/teratron/gonn/pkg/loss"
-	"github.com/teratron/gonn/pkg/persistence"
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/activation"
+	"github.com/cronusio/gonn/pkg/loss"
+	"github.com/cronusio/gonn/pkg/persistence"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // Save writes the network's architecture and/or trained weights to disk.

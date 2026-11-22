@@ -11,7 +11,7 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 type stubBackend[T utils.Float] struct{ name string }

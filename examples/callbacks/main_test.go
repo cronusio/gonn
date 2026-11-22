@@ -4,7 +4,7 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/teratron/gonn/pkg/nn"
+	"github.com/cronusio/gonn/pkg/nn"
 )
 
 // TestCallbacksFireDuringFit asserts that both EpochCallback and

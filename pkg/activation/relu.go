@@ -1,6 +1,6 @@
 package activation
 
-import "github.com/teratron/gonn/pkg/utils"
+import "github.com/cronusio/gonn/pkg/utils"
 
 // ReLU activation function: f(x) = x < 0 ? leak * x : x
 func reluActivation[T utils.Float](value T, leak float64) T {

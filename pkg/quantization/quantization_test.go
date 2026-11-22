@@ -8,10 +8,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	attentionpkg "github.com/teratron/gonn/pkg/layer/attention"
-	convpkg "github.com/teratron/gonn/pkg/layer/conv"
-	"github.com/teratron/gonn/pkg/nn"
-	"github.com/teratron/gonn/pkg/utils"
+	attentionpkg "github.com/cronusio/gonn/pkg/layer/attention"
+	convpkg "github.com/cronusio/gonn/pkg/layer/conv"
+	"github.com/cronusio/gonn/pkg/nn"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // ─── Helpers ─────────────────────────────────────────────────────────────────

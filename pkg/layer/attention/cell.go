@@ -3,7 +3,7 @@ package attention
 import (
 	"math"
 
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // softmaxRowwise applies numerically stable softmax over each row of an

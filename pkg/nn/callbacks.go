@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // ErrStopTraining is the sentinel error a callback returns to request early

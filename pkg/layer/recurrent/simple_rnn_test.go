@@ -5,7 +5,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 func TestSimpleRNNForward(t *testing.T) {

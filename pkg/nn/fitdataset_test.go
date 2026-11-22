@@ -7,10 +7,10 @@ import (
 	"io"
 	"testing"
 
-	"github.com/teratron/gonn/pkg/activation"
-	"github.com/teratron/gonn/pkg/dataset"
-	"github.com/teratron/gonn/pkg/loss"
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/activation"
+	"github.com/cronusio/gonn/pkg/dataset"
+	"github.com/cronusio/gonn/pkg/loss"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 func xorSliceDataset(t *testing.T, batch int) dataset.Dataset[float64] {

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/teratron/gonn/pkg/aimeta"
+	"github.com/cronusio/gonn/pkg/aimeta"
 )
 
 // runResolve applies mechanical fixes (LABEL/INDENT/LAST) to each path and

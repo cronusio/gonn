@@ -1,8 +1,8 @@
 package quantization
 
 import (
-	"github.com/teratron/gonn/pkg/activation"
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/activation"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // QuantizedDense is a weight-only (Phase α) or full-int8 (Phase β) quantized

@@ -21,8 +21,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/teratron/gonn/pkg/activation"
-	"github.com/teratron/gonn/pkg/nn"
+	"github.com/cronusio/gonn/pkg/activation"
+	"github.com/cronusio/gonn/pkg/nn"
 )
 
 // xorDataset is the canonical 4-point XOR truth table.

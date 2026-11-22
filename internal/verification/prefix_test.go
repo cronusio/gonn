@@ -3,13 +3,13 @@ package verification
 import (
 	"testing"
 
-	"github.com/teratron/gonn/pkg/activation"
-	"github.com/teratron/gonn/pkg/layer/conv"
-	"github.com/teratron/gonn/pkg/layer/embedding"
-	"github.com/teratron/gonn/pkg/layer/recurrent"
-	"github.com/teratron/gonn/pkg/loss"
-	"github.com/teratron/gonn/pkg/nn"
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/activation"
+	"github.com/cronusio/gonn/pkg/layer/conv"
+	"github.com/cronusio/gonn/pkg/layer/embedding"
+	"github.com/cronusio/gonn/pkg/layer/recurrent"
+	"github.com/cronusio/gonn/pkg/loss"
+	"github.com/cronusio/gonn/pkg/nn"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 func ramp(n int, step float64) []float64 {

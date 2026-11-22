@@ -6,8 +6,8 @@
 package cpu
 
 import (
-	"github.com/teratron/gonn/pkg/compute"
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/compute"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // Forward computes the layer's output activations from the input vector.

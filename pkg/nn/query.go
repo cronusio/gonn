@@ -1,7 +1,7 @@
 package nn
 
 import (
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // Query runs forward propagation only and returns a freshly allocated slice

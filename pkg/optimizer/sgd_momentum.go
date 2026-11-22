@@ -3,7 +3,7 @@ package optimizer
 import (
 	"encoding/json"
 
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // SGDMomentum extends SGD with a velocity term: v = γ·v + lr·d; w -= v.

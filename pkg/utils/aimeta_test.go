@@ -3,7 +3,7 @@ package utils
 import (
 	"testing"
 
-	"github.com/teratron/gonn/pkg/aimeta"
+	"github.com/cronusio/gonn/pkg/aimeta"
 )
 
 // TestAIMetaCompliance is the first per-package AI-Meta compliance hook per

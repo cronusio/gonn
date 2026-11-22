@@ -6,8 +6,8 @@ import (
 	"math"
 	"math/rand/v2"
 
-	"github.com/teratron/gonn/pkg/layer"
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/layer"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // MultiHeadAttention implements scaled dot-product multi-head attention

@@ -12,7 +12,7 @@ import (
 	"io"
 	"sync"
 
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // Prefetch wraps inner with a background producer goroutine. The channel

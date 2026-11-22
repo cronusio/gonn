@@ -4,9 +4,9 @@ import (
 	"math"
 	"testing"
 
-	"github.com/teratron/gonn/pkg/activation"
-	"github.com/teratron/gonn/pkg/optimizer"
-	"github.com/teratron/gonn/pkg/regularizer"
+	"github.com/cronusio/gonn/pkg/activation"
+	"github.com/cronusio/gonn/pkg/optimizer"
+	"github.com/cronusio/gonn/pkg/regularizer"
 )
 
 // TestWeightInitRanges verifies Xavier, He, and Random initialisation strategies

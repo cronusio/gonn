@@ -3,8 +3,8 @@ package quantization
 import (
 	"math"
 
-	attentionpkg "github.com/teratron/gonn/pkg/layer/attention"
-	"github.com/teratron/gonn/pkg/utils"
+	attentionpkg "github.com/cronusio/gonn/pkg/layer/attention"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // QuantizedAttentionProjections is a weight-only int8 quantized multi-head

@@ -7,8 +7,8 @@
 package cpu
 
 import (
-	"github.com/teratron/gonn/pkg/compute"
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/compute"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // Allocate returns a fresh Buffer[T] of the requested size. Negative

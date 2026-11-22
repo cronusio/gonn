@@ -1,6 +1,6 @@
 package conv
 
-import "github.com/teratron/gonn/pkg/utils"
+import "github.com/cronusio/gonn/pkg/utils"
 
 // Flatten2D is a stateless reshape layer that collapses a CHW feature map
 // into a 1-D vector. Element order follows CONV2D-C9 flat-index: element

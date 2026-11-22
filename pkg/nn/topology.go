@@ -1,8 +1,8 @@
 package nn
 
 import (
-	"github.com/teratron/gonn/pkg/activation"
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/activation"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // onTopologyChanged runs after a successful runtime topology mutation. The

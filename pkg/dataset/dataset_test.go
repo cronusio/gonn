@@ -15,7 +15,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // drainAll reads ds.Next until EOF and returns the concatenated samples

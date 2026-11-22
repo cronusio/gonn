@@ -12,14 +12,14 @@ import (
 	"slices"
 	"sync/atomic"
 
-	"github.com/teratron/gonn/pkg/activation"
-	"github.com/teratron/gonn/pkg/compute"
-	"github.com/teratron/gonn/pkg/layer"
-	"github.com/teratron/gonn/pkg/loss"
-	"github.com/teratron/gonn/pkg/neuron"
-	"github.com/teratron/gonn/pkg/neuron/axon"
-	"github.com/teratron/gonn/pkg/neuron/cell"
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/activation"
+	"github.com/cronusio/gonn/pkg/compute"
+	"github.com/cronusio/gonn/pkg/layer"
+	"github.com/cronusio/gonn/pkg/loss"
+	"github.com/cronusio/gonn/pkg/neuron"
+	"github.com/cronusio/gonn/pkg/neuron/axon"
+	"github.com/cronusio/gonn/pkg/neuron/cell"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // defaultLearningRate matches [l2-network-graph] §2 — 0.3 baseline.

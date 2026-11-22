@@ -4,11 +4,11 @@ import (
 	"math"
 	"testing"
 
-	"github.com/teratron/gonn/pkg/activation"
-	"github.com/teratron/gonn/pkg/layer"
-	"github.com/teratron/gonn/pkg/loss"
-	"github.com/teratron/gonn/pkg/neuron/cell"
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/activation"
+	"github.com/cronusio/gonn/pkg/layer"
+	"github.com/cronusio/gonn/pkg/loss"
+	"github.com/cronusio/gonn/pkg/neuron/cell"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // newTrainableWithSampler builds a 2→4→1 network with the given weight sampler.

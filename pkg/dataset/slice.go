@@ -9,7 +9,7 @@ import (
 	"context"
 	"io"
 
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // NewSliceDataset wraps in-memory slices into a Dataset[T]. inputs[i] pairs

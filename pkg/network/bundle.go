@@ -1,8 +1,8 @@
 package network
 
 import (
-	"github.com/teratron/gonn/pkg/neuron"
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/neuron"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // bundle is the typed cell container owned by Network. Each Network field

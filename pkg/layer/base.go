@@ -1,10 +1,10 @@
 package layer
 
 import (
-	"github.com/teratron/gonn/pkg/activation"
-	"github.com/teratron/gonn/pkg/neuron"
-	"github.com/teratron/gonn/pkg/neuron/cell"
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/activation"
+	"github.com/cronusio/gonn/pkg/neuron"
+	"github.com/cronusio/gonn/pkg/neuron/cell"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // base extends core with activation and bias — the two properties that

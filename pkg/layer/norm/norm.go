@@ -9,7 +9,7 @@ package norm
 import (
 	"math"
 
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // NormMode selects the operational mode for normalization layers.

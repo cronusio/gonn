@@ -3,8 +3,8 @@ package recurrent
 import (
 	"encoding/json"
 
-	"github.com/teratron/gonn/pkg/layer/conv"
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/layer/conv"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // LastStep collapses a sequence of hidden states [SeqLen*Hidden] to the final

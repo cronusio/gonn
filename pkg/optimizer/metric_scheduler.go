@@ -1,6 +1,6 @@
 package optimizer
 
-import "github.com/teratron/gonn/pkg/utils"
+import "github.com/cronusio/gonn/pkg/utils"
 
 // MetricScheduler extends Scheduler[T] with a metric-aware stepping method.
 // Implementations such as ReduceOnPlateau use the supplied metric (typically

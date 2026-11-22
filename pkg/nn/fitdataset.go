@@ -11,9 +11,9 @@ import (
 	"errors"
 	"io"
 
-	"github.com/teratron/gonn/pkg/dataset"
-	"github.com/teratron/gonn/pkg/optimizer"
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/dataset"
+	"github.com/cronusio/gonn/pkg/optimizer"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // FitDataset runs the managed multi-epoch training loop over a streaming

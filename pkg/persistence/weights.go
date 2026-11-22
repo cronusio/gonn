@@ -13,7 +13,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // configHashPrefix marks the algorithm of WeightsDoc.ConfigHash. Keeping

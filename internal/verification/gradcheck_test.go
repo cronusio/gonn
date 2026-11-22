@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/teratron/gonn/pkg/activation"
-	"github.com/teratron/gonn/pkg/loss"
+	"github.com/cronusio/gonn/pkg/activation"
+	"github.com/cronusio/gonn/pkg/loss"
 )
 
 // gradTolerance is the worst acceptable relative error between the analytic

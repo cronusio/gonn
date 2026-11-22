@@ -8,8 +8,8 @@
 package nn
 
 import (
-	"github.com/teratron/gonn/pkg/checkpoint"
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/checkpoint"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // WithCheckpoint arms periodic checkpointing: every everyN completed epochs

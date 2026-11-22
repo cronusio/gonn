@@ -1,8 +1,8 @@
 package gpu
 
 import (
-	"github.com/teratron/gonn/pkg/compute"
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/compute"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // New resolves vendor into a Backend[T] instance via the compute registry.

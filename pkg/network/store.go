@@ -1,8 +1,8 @@
 package network
 
 import (
-	"github.com/teratron/gonn/pkg/neuron/axon"
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/neuron/axon"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // denseLayer is the structure-of-arrays view of one fully connected layer

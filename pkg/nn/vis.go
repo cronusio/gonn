@@ -8,7 +8,7 @@
 package nn
 
 import (
-	"github.com/teratron/gonn/pkg/visualization"
+	"github.com/cronusio/gonn/pkg/visualization"
 )
 
 // controlString maps the atomic control state to its JSON label.

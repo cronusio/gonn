@@ -10,7 +10,7 @@ import (
 	"compress/gzip"
 	"os"
 
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // gzipFile compresses src into src + ".gz" using compress/gzip and then

@@ -7,9 +7,9 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/teratron/gonn/pkg/dataset"
-	"github.com/teratron/gonn/pkg/nn"
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/dataset"
+	"github.com/cronusio/gonn/pkg/nn"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // csvStreamThreshold is the file size beyond which the streaming CSV reader

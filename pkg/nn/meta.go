@@ -11,7 +11,7 @@ package nn
 import (
 	"fmt"
 
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // ParamAccessor is the uniform read/write interface for a single tunable

@@ -5,17 +5,17 @@ import (
 	"fmt"
 	"math/rand/v2"
 
-	"github.com/teratron/gonn/pkg/activation"
-	"github.com/teratron/gonn/pkg/compute"
-	"github.com/teratron/gonn/pkg/layer"
-	"github.com/teratron/gonn/pkg/layer/conv"
-	normPkg "github.com/teratron/gonn/pkg/layer/norm"
-	"github.com/teratron/gonn/pkg/layer/recurrent"
-	"github.com/teratron/gonn/pkg/loss"
-	"github.com/teratron/gonn/pkg/network"
-	"github.com/teratron/gonn/pkg/optimizer"
-	"github.com/teratron/gonn/pkg/utils"
-	"github.com/teratron/gonn/pkg/visualization"
+	"github.com/cronusio/gonn/pkg/activation"
+	"github.com/cronusio/gonn/pkg/compute"
+	"github.com/cronusio/gonn/pkg/layer"
+	"github.com/cronusio/gonn/pkg/layer/conv"
+	normPkg "github.com/cronusio/gonn/pkg/layer/norm"
+	"github.com/cronusio/gonn/pkg/layer/recurrent"
+	"github.com/cronusio/gonn/pkg/loss"
+	"github.com/cronusio/gonn/pkg/network"
+	"github.com/cronusio/gonn/pkg/optimizer"
+	"github.com/cronusio/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/visualization"
 )
 
 // compile is the shared finalisation routine consumed by both the

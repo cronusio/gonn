@@ -1,6 +1,6 @@
 package optimizer
 
-import "github.com/teratron/gonn/pkg/utils"
+import "github.com/cronusio/gonn/pkg/utils"
 
 // Granularity controls when the training loop calls Scheduler.Step.
 //

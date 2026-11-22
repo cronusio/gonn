@@ -3,9 +3,9 @@ package nn
 import (
 	"testing"
 
-	"github.com/teratron/gonn/pkg/activation"
-	"github.com/teratron/gonn/pkg/layer/transformer"
-	"github.com/teratron/gonn/pkg/loss"
+	"github.com/cronusio/gonn/pkg/activation"
+	"github.com/cronusio/gonn/pkg/layer/transformer"
+	"github.com/cronusio/gonn/pkg/loss"
 )
 
 // newTestTrCfg returns a minimal TransformerConfig for pkg/nn integration tests.

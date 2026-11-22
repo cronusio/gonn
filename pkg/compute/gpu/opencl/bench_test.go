@@ -8,9 +8,9 @@ import (
 	"math/rand/v2"
 	"testing"
 
-	"github.com/teratron/gonn/pkg/compute"
-	computecpu "github.com/teratron/gonn/pkg/compute/cpu"
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/compute"
+	computecpu "github.com/cronusio/gonn/pkg/compute/cpu"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // skipBenchIfNoDevice skips the benchmark when no OpenCL GPU is found.

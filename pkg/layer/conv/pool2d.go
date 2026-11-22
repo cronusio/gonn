@@ -3,7 +3,7 @@ package conv
 import (
 	"fmt"
 
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // MaxPool2D applies non-overlapping 2-D max pooling per channel. Stride

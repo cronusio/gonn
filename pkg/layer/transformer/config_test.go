@@ -4,7 +4,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/teratron/gonn/pkg/activation"
+	"github.com/cronusio/gonn/pkg/activation"
 )
 
 func TestApplyActivationInPlace(t *testing.T) {

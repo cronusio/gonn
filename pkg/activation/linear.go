@@ -1,6 +1,6 @@
 package activation
 
-import "github.com/teratron/gonn/pkg/utils"
+import "github.com/cronusio/gonn/pkg/utils"
 
 // Linear activation function: f(x) = slope * x + offset
 func linearActivation[T utils.Float](value T, slope, offset float64) T {

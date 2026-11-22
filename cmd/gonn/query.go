@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // queryCmd implements the "query" subcommand. It loads a compiled network

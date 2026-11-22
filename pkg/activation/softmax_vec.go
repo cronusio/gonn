@@ -3,7 +3,7 @@ package activation
 import (
 	"math"
 
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // SoftmaxInto writes the numerically-stable softmax of preact into dst:

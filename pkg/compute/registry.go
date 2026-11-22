@@ -8,7 +8,7 @@ package compute
 import (
 	"sync"
 
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // factoryF32 / factoryF64 are stored per generic specialisation. Go

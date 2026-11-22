@@ -11,8 +11,8 @@ import (
 
 	"math/rand/v2"
 
-	"github.com/teratron/gonn/pkg/neuron"
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/neuron"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // Bundle is the standard collection used by every neuron-side cell to

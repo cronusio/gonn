@@ -1,8 +1,8 @@
 package transformer
 
 import (
-	"github.com/teratron/gonn/pkg/activation"
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/activation"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // Mode selects whether a block or stack is used in encoder (bidirectional) or

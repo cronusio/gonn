@@ -3,7 +3,7 @@ package embedding
 import (
 	"math"
 
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // buildSinusoidalTable precomputes the Vaswani et al. 2017 sinusoidal positional

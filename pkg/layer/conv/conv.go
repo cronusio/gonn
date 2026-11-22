@@ -15,7 +15,7 @@
 package conv
 
 import (
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // PadMode selects the padding strategy for [Conv1D]. PadValid drops samples

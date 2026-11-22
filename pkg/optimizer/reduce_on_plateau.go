@@ -3,7 +3,7 @@ package optimizer
 import (
 	"encoding/json"
 
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // ReduceOnPlateau reduces the learning rate when a metric has stopped

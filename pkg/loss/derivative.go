@@ -3,7 +3,7 @@ package loss
 import (
 	"math"
 
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // Derivative returns dℓ/d(predicted) for the element-wise loss selected by mode,

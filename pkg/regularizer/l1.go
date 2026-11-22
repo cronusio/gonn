@@ -1,6 +1,6 @@
 package regularizer
 
-import "github.com/teratron/gonn/pkg/utils"
+import "github.com/cronusio/gonn/pkg/utils"
 
 // L1 applies L1 (lasso) regularization: penalty = λ × Σ|wᵢ|.
 // ApplyMask is an identity — L1 does not modify activations.

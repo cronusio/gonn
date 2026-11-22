@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // verifyCmd implements the "verify" subcommand. It loads a compiled network,

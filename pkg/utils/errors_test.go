@@ -202,7 +202,7 @@ func TestTrimToPackagePathFallbacks(t *testing.T) {
 		in, want string
 	}{
 		{"/home/user/proj/gonn/pkg/utils/errors.go", "pkg/utils/errors.go"},
-		{`C:\Projects\src\github.com\teratron\gonn\pkg\utils\errors.go`, `pkg\utils\errors.go`},
+		{`C:\Projects\src\github.com\cronusio\gonn\pkg\utils\errors.go`, `pkg\utils\errors.go`},
 		{"/tmp/external/file.go", "file.go"},
 		{`D:\external\file.go`, "file.go"},
 		{"file.go", "file.go"},

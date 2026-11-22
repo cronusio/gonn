@@ -16,7 +16,7 @@ package network
 import (
 	"sync"
 
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // activationPoolF32 / activationPoolF64 hold reusable scratch slices

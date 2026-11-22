@@ -5,8 +5,8 @@ import (
 	"math"
 	"sort"
 
-	"github.com/teratron/gonn/pkg/nn"
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/nn"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 const calibHardFloor = 32

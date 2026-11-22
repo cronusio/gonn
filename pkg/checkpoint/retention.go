@@ -15,7 +15,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // SweepConfig captures the retention policy. HotN most-recent snapshots

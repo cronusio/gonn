@@ -3,7 +3,7 @@ package conv
 import (
 	"fmt"
 
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // MaxPool1D applies non-overlapping max pooling along the input feature

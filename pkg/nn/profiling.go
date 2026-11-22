@@ -16,7 +16,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // profilingMu guards the servers map and the listen hook so tests can swap

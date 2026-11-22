@@ -17,7 +17,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // gzipMagic is the first two bytes of the standard gzip header. Used to

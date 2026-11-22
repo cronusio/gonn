@@ -3,7 +3,7 @@ package optimizer
 import (
 	"encoding/json"
 
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // SchedulerSegment pairs a Scheduler with a step-count duration window.

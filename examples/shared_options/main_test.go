@@ -3,8 +3,8 @@ package main
 import (
 	"testing"
 
-	"github.com/teratron/gonn/pkg/activation"
-	"github.com/teratron/gonn/pkg/nn"
+	"github.com/cronusio/gonn/pkg/activation"
+	"github.com/cronusio/gonn/pkg/nn"
 )
 
 // TestSharedOptsTrainBothTopologies asserts the same []Option[T] slice

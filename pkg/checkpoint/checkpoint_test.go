@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/teratron/gonn/pkg/persistence"
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/persistence"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 func sampleSnapshot() Snapshot[float32] {

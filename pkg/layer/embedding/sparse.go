@@ -3,7 +3,7 @@ package embedding
 import (
 	"math/bits"
 
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // sparseGrad accumulates per-row gradients for an embedding table.

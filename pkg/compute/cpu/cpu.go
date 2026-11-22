@@ -8,15 +8,15 @@
 // Importing this package for side effects registers "cpu" with both
 // float32 and float64 registries:
 //
-//	import _ "github.com/teratron/gonn/pkg/compute/cpu"
+//	import _ "github.com/cronusio/gonn/pkg/compute/cpu"
 //
 // pkg/nn imports it transitively so end-users get the default behaviour
 // without thinking about it.
 package cpu
 
 import (
-	"github.com/teratron/gonn/pkg/compute"
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/compute"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // Tolerance constants for cross-backend comparisons (COMP-1). Other

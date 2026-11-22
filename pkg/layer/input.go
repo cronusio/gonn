@@ -1,9 +1,9 @@
 package layer
 
 import (
-	"github.com/teratron/gonn/pkg/neuron"
-	"github.com/teratron/gonn/pkg/neuron/cell"
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/neuron"
+	"github.com/cronusio/gonn/pkg/neuron/cell"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // Input is the entry-point layer type. Aliased to the unexported core

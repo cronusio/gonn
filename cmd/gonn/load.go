@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/teratron/gonn/pkg/nn"
-	"github.com/teratron/gonn/pkg/persistence"
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/nn"
+	"github.com/cronusio/gonn/pkg/persistence"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // loadNetwork reads a config.json (and optionally a weights.json) from disk

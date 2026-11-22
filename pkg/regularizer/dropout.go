@@ -3,7 +3,7 @@ package regularizer
 import (
 	"math/rand/v2"
 
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // Dropout applies inverted Bernoulli dropout: each activation is retained with

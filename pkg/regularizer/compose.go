@@ -2,7 +2,7 @@ package regularizer
 
 import "slices"
 
-import "github.com/teratron/gonn/pkg/utils"
+import "github.com/cronusio/gonn/pkg/utils"
 
 // compose holds a slice of member regularizers.
 type compose[T utils.Float] struct {

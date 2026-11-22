@@ -30,9 +30,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/teratron/gonn/pkg/activation"
-	"github.com/teratron/gonn/pkg/dataset"
-	"github.com/teratron/gonn/pkg/nn"
+	"github.com/cronusio/gonn/pkg/activation"
+	"github.com/cronusio/gonn/pkg/dataset"
+	"github.com/cronusio/gonn/pkg/nn"
 )
 
 // mnistFiles lists the MNIST training files to fetch on -download.

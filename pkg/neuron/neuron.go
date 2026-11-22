@@ -1,7 +1,7 @@
 package neuron
 
 import (
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // Cell type tags identify the role of a neural cell within the network graph.

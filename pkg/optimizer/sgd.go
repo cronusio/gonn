@@ -3,7 +3,7 @@ package optimizer
 import (
 	"encoding/json"
 
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // SGD implements vanilla stochastic gradient descent: w[i] -= lr × d[i].

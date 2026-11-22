@@ -4,7 +4,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/teratron/gonn/pkg/optimizer"
+	"github.com/cronusio/gonn/pkg/optimizer"
 )
 
 // TestSGDGolden verifies SGD applies the correct weight update.
