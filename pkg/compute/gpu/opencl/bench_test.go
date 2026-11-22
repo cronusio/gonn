@@ -160,8 +160,8 @@ func BenchmarkCPUDenseBackward256(b *testing.B) {
 	for i := range gradient {
 		gradient[i] = rng.NormFloat64()
 	}
-	b.ResetTimer()
-	for range b.N {
+	
+	for b.Loop() {
 		if _, err := cpu.Backward(layer, gradient); err != nil {
 			b.Fatalf("CPU Backward: %v", err)
 		}
