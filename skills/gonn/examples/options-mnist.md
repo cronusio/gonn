@@ -12,8 +12,8 @@ import (
     "fmt"
     "log"
 
-    "github.com/teratron/gonn/pkg/nn"
-    "github.com/teratron/gonn/pkg/optimizer"
+    "github.com/cronusio/gonn/pkg/nn"
+    "github.com/cronusio/gonn/pkg/optimizer"
 )
 
 func main() {

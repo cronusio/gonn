@@ -1,7 +1,7 @@
-module github.com/teratron/gonn/examples/continuation
+module github.com/cronusio/gonn/examples/continuation
 
 go 1.26.3
 
-replace github.com/teratron/gonn => ../..
+replace github.com/cronusio/gonn => ../..
 
-require github.com/teratron/gonn v0.10.0
+require github.com/cronusio/gonn v0.10.0

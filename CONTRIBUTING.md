@@ -42,7 +42,7 @@ The `.design/`, `.agents/`, and `.magic/` directories are part of the **Specific
 ## Getting Started
 
 ```bash
-git clone https://github.com/teratron/gonn.git
+git clone https://github.com/cronusio/gonn.git
 cd gonn
 go mod download
 go build ./...

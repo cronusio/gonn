@@ -28,7 +28,7 @@ a stable front-end for cross-language tooling (Python notebooks invoking via sub
 
 ## 2. Constraints & Assumptions
 
-- Single binary, distributed via `go install github.com/teratron/gonn/cmd/gonn@latest`.
+- Single binary, distributed via `go install github.com/cronusio/gonn/cmd/gonn@latest`.
 - Project layout: `cmd/gonn/` — does not yet exist; created by this spec's implementation.
 - No interactive UI in scope. Streaming input via stdin / files only.
 - Output formats: human-readable text (default), `--json` for machine-readable.

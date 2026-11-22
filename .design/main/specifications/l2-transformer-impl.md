@@ -76,8 +76,8 @@ pkg/layer/transformer/
 package transformer
 
 import (
-    "github.com/teratron/gonn/pkg/activation"
-    "github.com/teratron/gonn/pkg/utils"
+    "github.com/cronusio/gonn/pkg/activation"
+    "github.com/cronusio/gonn/pkg/utils"
 )
 
 // TransformerConfig groups the construction parameters shared across encoder
@@ -105,11 +105,11 @@ type TransformerConfig[T utils.Float] struct {
 package transformer
 
 import (
-    "github.com/teratron/gonn/pkg/layer"
-    "github.com/teratron/gonn/pkg/layer/attention"
-    "github.com/teratron/gonn/pkg/layer/dense"
-    "github.com/teratron/gonn/pkg/layer/norm"
-    "github.com/teratron/gonn/pkg/layer/regularizer"
+    "github.com/cronusio/gonn/pkg/layer"
+    "github.com/cronusio/gonn/pkg/layer/attention"
+    "github.com/cronusio/gonn/pkg/layer/dense"
+    "github.com/cronusio/gonn/pkg/layer/norm"
+    "github.com/cronusio/gonn/pkg/layer/regularizer"
 )
 
 type EncoderBlock[T utils.Float] struct {

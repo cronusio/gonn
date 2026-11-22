@@ -14,7 +14,7 @@ func MyFunc[T utils.Float](x T) T { return x * 2 }
 func MyFunc(x float64) float64 { return x * 2 }
 ```
 
-Import: `"github.com/teratron/gonn/pkg/utils"`
+Import: `"github.com/cronusio/gonn/pkg/utils"`
 
 ## Compile-Time Interface Verification
 

@@ -75,8 +75,8 @@ pkg/layer/embedding/
 package embedding
 
 import (
-    "github.com/teratron/gonn/pkg/layer"
-    "github.com/teratron/gonn/pkg/utils"
+    "github.com/cronusio/gonn/pkg/layer"
+    "github.com/cronusio/gonn/pkg/utils"
 )
 
 type TokenEmbedding[T utils.Float] struct {
