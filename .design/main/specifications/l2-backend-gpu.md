@@ -139,8 +139,8 @@ import "C"
 import (
     _ "embed"
 
-    "github.com/teratron/gonn/pkg/compute"
-    "github.com/teratron/gonn/pkg/utils"
+    "github.com/cronusio/gonn/pkg/compute"
+    "github.com/cronusio/gonn/pkg/utils"
 )
 
 //go:embed kernels.cl
@@ -187,7 +187,7 @@ The factory signature is `func() (Backend[T], error)` — an error is returned O
 `ErrBackendUnavailable`. Kernel errors during Forward/Backward propagate as `ErrBackendKernel`
 through the standard return path.
 
-The blank import `_ "github.com/teratron/gonn/pkg/compute/gpu/opencl"` is added by the user
+The blank import `_ "github.com/cronusio/gonn/pkg/compute/gpu/opencl"` is added by the user
 explicitly when they want OpenCL — it is NOT added by `pkg/nn/init.go` (unlike `cpu`).
 
 ### 5.5 Fallback Wiring in `pkg/nn/compile.go`

@@ -23,7 +23,7 @@ The visualizer GUI is intentionally kept in a separate repository to:
 
 - Avoid dragging UI dependencies (templates, JS, frontend bundlers) into the core library.
 - Allow community alternative visualizers (terminal UI, Jupyter widget, web page).
-- Enable the library to be used **without** any UI weight — `import "github.com/teratron/gonn"`
+- Enable the library to be used **without** any UI weight — `import "github.com/cronusio/gonn"`
   remains zero-dep.
 
 To make that boundary concrete, the library publishes a documented, versioned wire protocol.

@@ -140,7 +140,7 @@ Flags:
 
 Package patterns:
   ./...                          recursive from current dir
-  github.com/teratron/gonn/...   absolute, recursive
+  github.com/cronusio/gonn/...   absolute, recursive
   pkg/nn pkg/network             explicit list
 ```
 
@@ -157,7 +157,7 @@ package nn_test
 import (
     "testing"
 
-    "github.com/teratron/gonn/pkg/aimeta"
+    "github.com/cronusio/gonn/pkg/aimeta"
 )
 
 func TestAIMetaCompliance(t *testing.T) {

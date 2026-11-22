@@ -321,7 +321,7 @@ packages.
   - Stores backend in `Config.Backend`; compile() probes with `Allocate(1)`.
   - On `ErrBackendUnavailable`: logs `Warn("backend unavailable, falling back to CPU")` and uses CPU reference backend.
 - **`pkg/nn/compile.go`** — `resolveBackend[T]`: probe logic + CPU fallback.
-- **`pkg/nn/init.go`** — blank import `_ "github.com/teratron/gonn/pkg/compute/cpu"` ensures CPU backend registered at startup.
+- **`pkg/nn/init.go`** — blank import `_ "github.com/cronusio/gonn/pkg/compute/cpu"` ensures CPU backend registered at startup.
 - **`pkg/nn/config.go`** — `Backend compute.Backend[T]` field added to `Config[T]`.
 - **`pkg/nn/nn.go`** — `backend compute.Backend[T]` field added to `NN[T]`.
 - **`pkg/nn/backend_test.go`** — 3 subtests: nil backend → CPU, unavailable backend → CPU fallback, result parity CPU vs fallback.

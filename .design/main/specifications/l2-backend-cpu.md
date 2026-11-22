@@ -86,7 +86,7 @@ func init() {
 }
 ```
 
-The blank import `_ "github.com/teratron/gonn/pkg/compute/cpu"` lives in `pkg/nn/init.go` so the default backend is always registered when the public API is used.
+The blank import `_ "github.com/cronusio/gonn/pkg/compute/cpu"` lives in `pkg/nn/init.go` so the default backend is always registered when the public API is used.
 
 ### 5.4 Tolerance Constants
 

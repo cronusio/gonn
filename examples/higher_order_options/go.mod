@@ -1,7 +1,7 @@
-module github.com/teratron/gonn/examples/higher_order_options
+module github.com/cronusio/gonn/examples/higher_order_options
 
 go 1.26.3
 
-replace github.com/teratron/gonn => ../..
+replace github.com/cronusio/gonn => ../..
 
-require github.com/teratron/gonn v0.5.1
+require github.com/cronusio/gonn v0.5.1

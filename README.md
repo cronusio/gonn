@@ -1,7 +1,7 @@
 # GoNN
 
-[![GoDoc](https://godoc.org/github.com/teratron/gonn?status.svg)](https://godoc.org/github.com/teratron/gonn)
-[![Go Report Card](https://goreportcard.com/badge/github.com/teratron/gonn)](https://goreportcard.com/report/github.com/teratron/gonn)
+[![GoDoc](https://godoc.org/github.com/cronusio/gonn?status.svg)](https://godoc.org/github.com/cronusio/gonn)
+[![Go Report Card](https://goreportcard.com/badge/github.com/cronusio/gonn)](https://goreportcard.com/report/github.com/cronusio/gonn)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
@@ -13,7 +13,7 @@ Training numerics are guarded by a numeric gradient-check suite (`internal/verif
 ## Installation
 
 ```shell
-go get github.com/teratron/gonn
+go get github.com/cronusio/gonn
 ```
 
 ## Quick Start
@@ -22,9 +22,9 @@ go get github.com/teratron/gonn
 
 ```go
 import (
-    "github.com/teratron/gonn/pkg/activation"
-    "github.com/teratron/gonn/pkg/nn"
-    "github.com/teratron/gonn/pkg/optimizer"
+    "github.com/cronusio/gonn/pkg/activation"
+    "github.com/cronusio/gonn/pkg/nn"
+    "github.com/cronusio/gonn/pkg/optimizer"
 )
 
 n, err := nn.New[float32](
@@ -72,7 +72,7 @@ n, err := nn.New[float32](
 ### Pluggable Optimizers
 
 ```go
-import "github.com/teratron/gonn/pkg/optimizer"
+import "github.com/cronusio/gonn/pkg/optimizer"
 
 // Adam
 n, _ := nn.New[float32](
@@ -92,7 +92,7 @@ nn.WithOptimizer[float32](optimizer.NewRMSProp[float32](0.001))
 ### Regularization
 
 ```go
-import "github.com/teratron/gonn/pkg/regularizer"
+import "github.com/cronusio/gonn/pkg/regularizer"
 
 // L2 weight decay
 n, _ := nn.New[float32](
