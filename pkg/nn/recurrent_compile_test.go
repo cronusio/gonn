@@ -4,9 +4,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/teratron/gonn/pkg/activation"
-	"github.com/teratron/gonn/pkg/layer/recurrent"
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/activation"
+	"github.com/cronusio/gonn/pkg/layer/recurrent"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // TestRecurrentCompile verifies that WithGRU / WithLSTM / WithSimpleRNN /

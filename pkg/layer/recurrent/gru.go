@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"math/rand/v2"
 
-	"github.com/teratron/gonn/pkg/layer/conv"
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/layer/conv"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // GRU is a Gated Recurrent Unit layer with 3 fused gate matrices.

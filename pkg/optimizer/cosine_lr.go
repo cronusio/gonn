@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"math"
 
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // CosineAnnealingLR decays the learning rate from lr₀ to lrMin following a

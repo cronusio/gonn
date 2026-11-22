@@ -9,7 +9,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/teratron/gonn/pkg/nn"
+	"github.com/cronusio/gonn/pkg/nn"
 )
 
 func main() {

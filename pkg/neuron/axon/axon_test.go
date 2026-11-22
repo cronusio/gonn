@@ -1,12 +1,12 @@
 package axon
 
 import (
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/utils"
 	"math"
 	"sync"
 	"testing"
 
-	"github.com/teratron/gonn/pkg/neuron"
+	"github.com/cronusio/gonn/pkg/neuron"
 )
 
 // stubNucleus is a minimal Nucleus[T] used as the incoming endpoint —

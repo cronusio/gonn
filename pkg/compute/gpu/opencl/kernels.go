@@ -10,8 +10,8 @@ import (
 	_ "embed"
 	"unsafe"
 
-	"github.com/teratron/gonn/pkg/compute"
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/compute"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 //go:embed kernels.cl

@@ -1,6 +1,6 @@
 package loss
 
-import "github.com/teratron/gonn/pkg/utils"
+import "github.com/cronusio/gonn/pkg/utils"
 
 // Mean Squared Error loss function: MSE = ½·(predicted - target)².
 //

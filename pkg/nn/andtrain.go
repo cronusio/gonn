@@ -3,8 +3,8 @@ package nn
 import (
 	"fmt"
 
-	"github.com/teratron/gonn/pkg/optimizer"
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/optimizer"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // AndTrain continues training on a new sample set without rebuilding the

@@ -6,9 +6,9 @@ import (
 	"math/rand/v2"
 	"slices"
 
-	"github.com/teratron/gonn/pkg/layer"
-	"github.com/teratron/gonn/pkg/layer/attention"
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/layer"
+	"github.com/cronusio/gonn/pkg/layer/attention"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // Stack composes N homogeneous transformer blocks sequentially.

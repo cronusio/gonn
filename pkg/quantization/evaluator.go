@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/teratron/gonn/pkg/nn"
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/nn"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // EvalSample pairs an input with its expected output for side-by-side evaluation.

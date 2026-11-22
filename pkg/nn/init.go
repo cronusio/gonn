@@ -3,4 +3,4 @@
 // This blank import is the only wiring needed; no call site changes are required.
 package nn
 
-import _ "github.com/teratron/gonn/pkg/compute/cpu"
+import _ "github.com/cronusio/gonn/pkg/compute/cpu"

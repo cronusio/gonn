@@ -1,6 +1,6 @@
 package loss
 
-import "github.com/teratron/gonn/pkg/utils"
+import "github.com/cronusio/gonn/pkg/utils"
 
 // Mean Absolute Percentage Error loss function: MAPE = |(target - predicted) / target| * 100
 // To avoid division by zero, we add a small epsilon to the denominator

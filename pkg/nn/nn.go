@@ -6,15 +6,15 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/teratron/gonn/pkg/compute"
-	"github.com/teratron/gonn/pkg/layer/conv"
-	"github.com/teratron/gonn/pkg/layer/norm"
-	"github.com/teratron/gonn/pkg/network"
-	"github.com/teratron/gonn/pkg/optimizer"
-	"github.com/teratron/gonn/pkg/persistence"
-	"github.com/teratron/gonn/pkg/regularizer"
-	"github.com/teratron/gonn/pkg/utils"
-	"github.com/teratron/gonn/pkg/visualization"
+	"github.com/cronusio/gonn/pkg/compute"
+	"github.com/cronusio/gonn/pkg/layer/conv"
+	"github.com/cronusio/gonn/pkg/layer/norm"
+	"github.com/cronusio/gonn/pkg/network"
+	"github.com/cronusio/gonn/pkg/optimizer"
+	"github.com/cronusio/gonn/pkg/persistence"
+	"github.com/cronusio/gonn/pkg/regularizer"
+	"github.com/cronusio/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/visualization"
 )
 
 // NN is the public facade type. It embeds network.Network[T] by composition

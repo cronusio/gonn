@@ -3,7 +3,7 @@ package activation
 import (
 	"math"
 
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 var _ Function[float32] = (*Sigmoid[float32])(nil)

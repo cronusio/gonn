@@ -3,7 +3,7 @@ package optimizer
 import (
 	"encoding/json"
 
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // WarmUpLR linearly ramps the learning rate from 0 to lr₀ over warmupSteps

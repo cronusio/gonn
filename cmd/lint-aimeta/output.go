@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/teratron/gonn/pkg/aimeta"
+	"github.com/cronusio/gonn/pkg/aimeta"
 )
 
 // printText writes one violation per line in the format:

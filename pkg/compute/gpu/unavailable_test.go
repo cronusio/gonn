@@ -4,8 +4,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/teratron/gonn/pkg/compute"
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/compute"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // TestUnavailableBackendName verifies Name() returns the vendor string.

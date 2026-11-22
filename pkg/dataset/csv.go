@@ -14,7 +14,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // NewCSVDataset opens a CSV file at path and returns a streaming Dataset[T].

@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/teratron/gonn/pkg/activation"
-	"github.com/teratron/gonn/pkg/loss"
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/activation"
+	"github.com/cronusio/gonn/pkg/loss"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // captureWarnings swaps utils.Logger for a buffer-backed slog.Logger

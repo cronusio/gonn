@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/teratron/gonn/pkg/aimeta"
+	"github.com/cronusio/gonn/pkg/aimeta"
 )
 
 // exit codes per l2-aimeta-linter §5.5 / l2-cli-client §5.3.

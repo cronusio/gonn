@@ -4,8 +4,8 @@ import (
 	"math"
 	"testing"
 
-	"github.com/teratron/gonn/pkg/neuron"
-	"github.com/teratron/gonn/pkg/neuron/axon"
+	"github.com/cronusio/gonn/pkg/neuron"
+	"github.com/cronusio/gonn/pkg/neuron/axon"
 )
 
 // approxEqual returns true if |a - b| <= 1e-9 — sufficient for the

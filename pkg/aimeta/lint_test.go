@@ -3,7 +3,7 @@ package aimeta_test
 import (
 	"testing"
 
-	"github.com/teratron/gonn/pkg/aimeta"
+	"github.com/cronusio/gonn/pkg/aimeta"
 )
 
 func TestGoldenFiles(t *testing.T) {

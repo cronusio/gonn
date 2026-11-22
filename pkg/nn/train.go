@@ -3,9 +3,9 @@ package nn
 import (
 	"slices"
 
-	"github.com/teratron/gonn/pkg/optimizer"
-	"github.com/teratron/gonn/pkg/regularizer"
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/optimizer"
+	"github.com/cronusio/gonn/pkg/regularizer"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // libVersion is the GoNN library version embedded in structured log events.

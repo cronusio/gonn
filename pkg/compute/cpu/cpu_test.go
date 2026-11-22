@@ -10,8 +10,8 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/teratron/gonn/pkg/compute"
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/compute"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // makeXORWeights builds a tiny 2 → 2 layer hand-tuned for the XOR

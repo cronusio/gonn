@@ -3,7 +3,7 @@ package optimizer
 import (
 	"math"
 
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // ClipByGlobalNorm clips a set of gradient slices so that the global L2 norm

@@ -4,8 +4,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/teratron/gonn/pkg/activation"
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/activation"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // buildAndTrainNet creates a tiny network suitable for AndTrain smoke tests.

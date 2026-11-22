@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"math/rand/v2"
 
-	"github.com/teratron/gonn/pkg/activation"
-	"github.com/teratron/gonn/pkg/layer"
-	"github.com/teratron/gonn/pkg/layer/attention"
-	"github.com/teratron/gonn/pkg/layer/norm"
-	"github.com/teratron/gonn/pkg/regularizer"
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/activation"
+	"github.com/cronusio/gonn/pkg/layer"
+	"github.com/cronusio/gonn/pkg/layer/attention"
+	"github.com/cronusio/gonn/pkg/layer/norm"
+	"github.com/cronusio/gonn/pkg/regularizer"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // EncoderBlock implements a single Transformer encoder layer:

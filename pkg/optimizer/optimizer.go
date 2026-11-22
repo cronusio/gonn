@@ -5,7 +5,7 @@
 // SGD, obtained via [DefaultOptimizer].
 package optimizer
 
-import "github.com/teratron/gonn/pkg/utils"
+import "github.com/cronusio/gonn/pkg/utils"
 
 // Optimizer updates weight parameters in-place given their raw gradients.
 // Step is called once per weight-update cycle (after CalculateMisses) with

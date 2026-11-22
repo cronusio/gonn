@@ -1,6 +1,6 @@
 package quantization
 
-import "github.com/teratron/gonn/pkg/utils"
+import "github.com/cronusio/gonn/pkg/utils"
 
 // QuantMode selects the operating mode for a quantization run.
 //

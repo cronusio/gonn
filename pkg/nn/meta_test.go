@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/teratron/gonn/pkg/activation"
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/activation"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // newTestNN builds a minimal 2→2→1 network for use as an inner NN in meta tests.

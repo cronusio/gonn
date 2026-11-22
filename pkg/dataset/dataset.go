@@ -10,7 +10,7 @@ package dataset
 import (
 	"context"
 
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // Batch is a homogeneous group of (input, target) pairs sharing the same

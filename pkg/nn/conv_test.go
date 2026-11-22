@@ -5,9 +5,9 @@ import (
 	"math"
 	"testing"
 
-	"github.com/teratron/gonn/pkg/activation"
-	"github.com/teratron/gonn/pkg/layer/conv"
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/activation"
+	"github.com/cronusio/gonn/pkg/layer/conv"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // TestConvPrefixCompileShape verifies that compile() resolves the conv chain

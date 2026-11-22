@@ -6,8 +6,8 @@ import (
 	"math/rand/v2"
 	"testing"
 
-	"github.com/teratron/gonn/pkg/compute"
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/compute"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // naiveMatVec / naiveMatVecT / naiveGradOuter are deliberately written from the

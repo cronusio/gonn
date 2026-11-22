@@ -1,7 +1,7 @@
 package nn
 
 import (
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // Verify runs a forward pass and returns the configured loss without

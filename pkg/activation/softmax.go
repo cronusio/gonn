@@ -3,7 +3,7 @@ package activation
 import (
 	"math"
 
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // softmaxActivation applies a per-element sigmoid used as a scalar stand-in for

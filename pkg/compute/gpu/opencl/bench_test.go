@@ -8,9 +8,9 @@ import (
 	"math/rand/v2"
 	"testing"
 
-	"github.com/teratron/gonn/pkg/compute"
-	computecpu "github.com/teratron/gonn/pkg/compute/cpu"
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/compute"
+	computecpu "github.com/cronusio/gonn/pkg/compute/cpu"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // skipBenchIfNoDevice skips the benchmark when no OpenCL GPU is found.
@@ -160,8 +160,8 @@ func BenchmarkCPUDenseBackward256(b *testing.B) {
 	for i := range gradient {
 		gradient[i] = rng.NormFloat64()
 	}
-	b.ResetTimer()
-	for range b.N {
+	
+	for b.Loop() {
 		if _, err := cpu.Backward(layer, gradient); err != nil {
 			b.Fatalf("CPU Backward: %v", err)
 		}

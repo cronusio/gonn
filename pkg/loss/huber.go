@@ -1,6 +1,6 @@
 package loss
 
-import "github.com/teratron/gonn/pkg/utils"
+import "github.com/cronusio/gonn/pkg/utils"
 
 // Huber Loss: HUBER = { 0.5 * (predicted - target)²                    if |predicted - target| <= delta
 //

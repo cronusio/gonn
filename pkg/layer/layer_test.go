@@ -3,9 +3,9 @@ package layer
 import (
 	"testing"
 
-	"github.com/teratron/gonn/pkg/activation"
-	"github.com/teratron/gonn/pkg/loss"
-	"github.com/teratron/gonn/pkg/neuron"
+	"github.com/cronusio/gonn/pkg/activation"
+	"github.com/cronusio/gonn/pkg/loss"
+	"github.com/cronusio/gonn/pkg/neuron"
 )
 
 func TestNewInputCarriesSize(t *testing.T) {

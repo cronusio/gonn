@@ -5,7 +5,7 @@ import (
 	"math/rand/v2"
 	"testing"
 
-	"github.com/teratron/gonn/pkg/activation"
+	"github.com/cronusio/gonn/pkg/activation"
 )
 
 func TestAddInPlace(t *testing.T) {

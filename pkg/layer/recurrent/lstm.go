@@ -5,8 +5,8 @@ import (
 	"math"
 	"math/rand/v2"
 
-	"github.com/teratron/gonn/pkg/layer/conv"
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/layer/conv"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // LSTM is a Long Short-Term Memory recurrent layer with fused gate matrices.

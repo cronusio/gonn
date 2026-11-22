@@ -5,9 +5,9 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/teratron/gonn/pkg/activation"
-	"github.com/teratron/gonn/pkg/loss"
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/activation"
+	"github.com/cronusio/gonn/pkg/loss"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // newCallbacksNet returns a minimal 2→4→1 XOR network compiled with the supplied

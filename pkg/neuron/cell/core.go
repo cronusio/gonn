@@ -3,8 +3,8 @@
 package cell
 
 import (
-	"github.com/teratron/gonn/pkg/neuron"
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/neuron"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 var (

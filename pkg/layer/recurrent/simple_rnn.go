@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"math/rand/v2"
 
-	"github.com/teratron/gonn/pkg/layer/conv"
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/layer/conv"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // SimpleRNN is an Elman recurrent layer: h_t = tanh(Wxh·x_t + Whh·h_{t-1} + b_h).

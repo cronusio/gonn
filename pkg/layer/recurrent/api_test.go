@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // TestSimpleRNNAPI covers InputSize, OutputSize, GradSlots, GradWhh, Step, ResetState.

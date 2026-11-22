@@ -8,7 +8,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // Recognised IDX dtype bytes per the MNIST specification.

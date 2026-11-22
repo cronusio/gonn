@@ -38,10 +38,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/teratron/gonn/pkg/activation"
-	"github.com/teratron/gonn/pkg/dataset"
-	convPkg "github.com/teratron/gonn/pkg/layer/conv"
-	"github.com/teratron/gonn/pkg/nn"
+	"github.com/cronusio/gonn/pkg/activation"
+	"github.com/cronusio/gonn/pkg/dataset"
+	convPkg "github.com/cronusio/gonn/pkg/layer/conv"
+	"github.com/cronusio/gonn/pkg/nn"
 )
 
 const numClasses = 10

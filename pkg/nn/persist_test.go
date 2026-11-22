@@ -9,10 +9,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/teratron/gonn/pkg/activation"
-	"github.com/teratron/gonn/pkg/layer/conv"
-	"github.com/teratron/gonn/pkg/loss"
-	"github.com/teratron/gonn/pkg/persistence"
+	"github.com/cronusio/gonn/pkg/activation"
+	"github.com/cronusio/gonn/pkg/layer/conv"
+	"github.com/cronusio/gonn/pkg/loss"
+	"github.com/cronusio/gonn/pkg/persistence"
 )
 
 // ── Save / Load round-trip ────────────────────────────────────────────────────

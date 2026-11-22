@@ -1,6 +1,6 @@
 package attention
 
-import "github.com/teratron/gonn/pkg/utils"
+import "github.com/cronusio/gonn/pkg/utils"
 
 // MaskedLayer is the optional interface implemented by layers that accept a
 // per-call padding mask. The caller sets the mask immediately before Forward;

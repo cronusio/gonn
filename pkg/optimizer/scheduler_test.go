@@ -4,7 +4,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/teratron/gonn/pkg/optimizer"
+	"github.com/cronusio/gonn/pkg/optimizer"
 )
 
 // TestStepLRBoundary verifies the step-boundary transition, gamma=1 no-op,

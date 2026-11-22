@@ -5,10 +5,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/teratron/gonn/pkg/activation"
-	"github.com/teratron/gonn/pkg/compute/cpu"
-	"github.com/teratron/gonn/pkg/loss"
-	"github.com/teratron/gonn/pkg/nn"
+	"github.com/cronusio/gonn/pkg/activation"
+	"github.com/cronusio/gonn/pkg/compute/cpu"
+	"github.com/cronusio/gonn/pkg/loss"
+	"github.com/cronusio/gonn/pkg/nn"
 )
 
 // roundTripPreservesQuery is the shared assertion used by single- and

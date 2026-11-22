@@ -1,8 +1,8 @@
 package recurrent
 
 import (
-	"github.com/teratron/gonn/pkg/activation"
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/activation"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // Compile-time check: utils.Orthogonal must exist for T=float64 (REC-7 dependency).

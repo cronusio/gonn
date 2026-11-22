@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"math/rand/v2"
 
-	"github.com/teratron/gonn/pkg/activation"
-	"github.com/teratron/gonn/pkg/layer"
-	"github.com/teratron/gonn/pkg/layer/attention"
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/activation"
+	"github.com/cronusio/gonn/pkg/layer"
+	"github.com/cronusio/gonn/pkg/layer/attention"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // Block is the package-private interface satisfied by both [EncoderBlock] and

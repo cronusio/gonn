@@ -1,7 +1,7 @@
 package nn
 
 import (
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // Lifecycle states for the training-control state machine. Stored as

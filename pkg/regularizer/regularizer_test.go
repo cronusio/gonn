@@ -4,7 +4,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/teratron/gonn/pkg/regularizer"
+	"github.com/cronusio/gonn/pkg/regularizer"
 )
 
 // TestL2Penalty verifies L2 golden formula: λ=0.01, known weights.

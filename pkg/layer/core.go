@@ -11,8 +11,8 @@
 package layer
 
 import (
-	"github.com/teratron/gonn/pkg/neuron"
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/neuron"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // Layer is the interface implemented by sequence-processing layers that

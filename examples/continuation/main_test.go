@@ -4,8 +4,8 @@ import (
 	"math"
 	"testing"
 
-	"github.com/teratron/gonn/pkg/activation"
-	"github.com/teratron/gonn/pkg/nn"
+	"github.com/cronusio/gonn/pkg/activation"
+	"github.com/cronusio/gonn/pkg/nn"
 )
 
 // TestAndTrainContinuation builds the example network end-to-end and asserts

@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/teratron/gonn/pkg/activation"
-	"github.com/teratron/gonn/pkg/loss"
-	"github.com/teratron/gonn/pkg/nn"
+	"github.com/cronusio/gonn/pkg/activation"
+	"github.com/cronusio/gonn/pkg/loss"
+	"github.com/cronusio/gonn/pkg/nn"
 )
 
 // runBuilder trains an XOR network using the Builder API (Style A) and

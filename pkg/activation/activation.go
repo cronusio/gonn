@@ -1,7 +1,7 @@
 package activation
 
 import (
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // ActivationType represents different activation functions.

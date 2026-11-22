@@ -1,6 +1,6 @@
 package conv
 
-import "github.com/teratron/gonn/pkg/utils"
+import "github.com/cronusio/gonn/pkg/utils"
 
 // Flatten is a stateless reshape layer that collapses a feature map into a
 // 1-D vector. It carries no weights, no biases, and no learnable state —

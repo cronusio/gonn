@@ -8,8 +8,8 @@ import (
 	"math"
 	"os"
 
-	"github.com/teratron/gonn/pkg/activation"
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/activation"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // QuantizedLayerJSON is the per-layer wire record inside .qnn.json.

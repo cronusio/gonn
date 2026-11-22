@@ -4,7 +4,7 @@
 //
 // Import this package with a blank import to register the "opencl" backend:
 //
-//	import _ "github.com/teratron/gonn/pkg/compute/gpu/opencl"
+//	import _ "github.com/cronusio/gonn/pkg/compute/gpu/opencl"
 //
 // Build with -tags opencl (and cgo enabled, which is the default).
 //
@@ -32,7 +32,7 @@
 //
 // AI-Meta:
 //   - Purpose: OpenCL 1.2 Backend[T] implementation; registers under gpu.VendorOpenCL at init.
-//   - Usage: import _ "github.com/teratron/gonn/pkg/compute/gpu/opencl"; gpu.New[float32](gpu.VendorOpenCL).
+//   - Usage: import _ "github.com/cronusio/gonn/pkg/compute/gpu/opencl"; gpu.New[float32](gpu.VendorOpenCL).
 //   - Errors: ErrBackendUnavailable (no device or unimplemented op), ErrBackendKernel (kernel launch failed), ErrBackendTransfer.
 //   - Concurrency: NotSafe; each Backend instance owns its queue.
 //   - Related: [compute.Backend], [compute.DenseKernels], [gpu.New], [gpu.VendorOpenCL].
@@ -43,8 +43,8 @@ package opencl
 import "C"
 
 import (
-	"github.com/teratron/gonn/pkg/compute"
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/compute"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 func init() {

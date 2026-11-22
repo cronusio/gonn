@@ -5,7 +5,7 @@
 // guard at each call site.
 package regularizer
 
-import "github.com/teratron/gonn/pkg/utils"
+import "github.com/cronusio/gonn/pkg/utils"
 
 // Regularizer adds a generalization constraint to the training loop.
 // Penalty adds the regularization term to the effective loss; ApplyMask

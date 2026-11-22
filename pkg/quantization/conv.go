@@ -1,8 +1,8 @@
 package quantization
 
 import (
-	convpkg "github.com/teratron/gonn/pkg/layer/conv"
-	"github.com/teratron/gonn/pkg/utils"
+	convpkg "github.com/cronusio/gonn/pkg/layer/conv"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // convPadMode aliases conv.PadMode so persistence.go can reference it

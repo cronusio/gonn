@@ -1,6 +1,6 @@
 package loss
 
-import "github.com/teratron/gonn/pkg/utils"
+import "github.com/cronusio/gonn/pkg/utils"
 
 // Hinge Loss: HINGE = max(0, 1 - predicted * target)
 // This assumes target is -1 or 1, and predicted is the raw output from the model

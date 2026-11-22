@@ -1,6 +1,6 @@
 package loss
 
-import "github.com/teratron/gonn/pkg/utils"
+import "github.com/cronusio/gonn/pkg/utils"
 
 // Categorical Hinge Loss: CAT_HINGE = max(0, 1 - predicted[true_class] + predicted[other_class])
 // This is a simplified version that assumes binary classification for now

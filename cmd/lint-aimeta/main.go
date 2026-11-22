@@ -20,7 +20,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/teratron/gonn/pkg/aimeta"
+	"github.com/cronusio/gonn/pkg/aimeta"
 )
 
 func main() {

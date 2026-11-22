@@ -8,7 +8,7 @@
 package compute
 
 import (
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // LayerHandle is the per-layer view a compute backend needs to run the

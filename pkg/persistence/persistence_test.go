@@ -14,7 +14,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // sampleConfig produces a small but non-trivial ConfigDoc usable across

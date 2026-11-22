@@ -7,7 +7,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/teratron/gonn/pkg/visualization"
+	"github.com/cronusio/gonn/pkg/visualization"
 )
 
 func makeServer(t *testing.T) (*visualization.VisServer, string) {

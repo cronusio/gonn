@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // trainCmd implements the "train" subcommand. It compiles a network from the

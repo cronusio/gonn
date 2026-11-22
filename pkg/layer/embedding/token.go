@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"math/rand/v2"
 
-	"github.com/teratron/gonn/pkg/layer"
-	"github.com/teratron/gonn/pkg/utils"
+	"github.com/cronusio/gonn/pkg/layer"
+	"github.com/cronusio/gonn/pkg/utils"
 )
 
 // TokenEmbedding maps integer token IDs to dense vectors using a learnable

@@ -3,7 +3,7 @@ package layer
 import (
 	"testing"
 
-	"github.com/teratron/gonn/pkg/aimeta"
+	"github.com/cronusio/gonn/pkg/aimeta"
 )
 
 // TestAIMetaCompliance verifies that all AI-Meta blocks present in the package
